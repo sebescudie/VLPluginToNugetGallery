@@ -1,0 +1,18 @@
+name: 'Push VL plugin to Nuget Gallery'
+description: 'Packs and pushes your VL plugin to Nuget Gallery'
+inputs:
+  vs-solution:
+    description: 'The path to your sln file, if you have one'
+    required: false
+  csproj:
+    description: 'The path to your csproj file, if you have one'
+    required: false
+  nuspec:
+    description: 'The path to your nuspec file'
+    required: true
+  nuget-secret:
+    description: 'Your nuget secret'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

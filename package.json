@@ -1,0 +1,20 @@
+{
+  "name": "VLPluginToNugetGallery",
+  "version": "1.0.0",
+  "description": "A Github action to push a VL plugin to the Nuget Gallery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebescudie/VLPluginToNugetGallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebescudie/VLPluginToNugetGallery/issues"
+  },
+  "homepage": "https://github.com/sebescudie/VLPluginToNugetGallery#readme"
+}
